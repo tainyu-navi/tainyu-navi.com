@@ -35,6 +35,7 @@
 			}
 		],function(){
 			this.options&&(this.options.url='http://tainyu-navi.com/');
+			console.log($('#sosialbutton'));
 			$('#socialbutton').append($('<div/>').socialbutton(this.type,this.options));
 		});
 	});
